@@ -14,6 +14,8 @@ npm-debug.log*
 # env files
 .env
 .env*.local
+# committed on purpose — contains only public (NEXT_PUBLIC_*) values
+!.env.production
 
 # typescript
 *.tsbuildinfo
